@@ -27,8 +27,8 @@ and your client application to share. If you're using SSL, point the
 Certificate and Key fields at your `.pem` and `.key` files.
 
 These are both available on the public Docker Hub:
-[thraxil/windsock](https://hub.docker.com/r/thraxil/windsock/)
-and [thraxil/windsock-broker](https://hub.docker.com/r/thraxil/windsock-broker/)
+[ccnmtl/windsock](https://hub.docker.com/r/ccnmtl/windsock/)
+and [ccnmtl/windsock-broker](https://hub.docker.com/r/ccnmtl/windsock-broker/)
 
 The 'generate_cert.go` program is included to help you make a
 self-signed certificate (for testing). It's just copied from the Go
