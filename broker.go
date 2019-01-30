@@ -13,7 +13,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/kelseyhightower/envconfig"
-	zmq "github.com/pebbe/zmq2"
+	zmq "github.com/pebbe/zmq4"
 )
 
 type envelope struct {
