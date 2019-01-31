@@ -18,7 +18,7 @@ install_deps:
 
 build: *.go
 	docker build -f Dockerfile-broker -t ccnmtl/windsock-broker .
-	docker build -f Dockerfile-windsock -t ccnmtl/windsock .
+	docker build -f Dockerfile -t ccnmtl/windsock .
 
 push: build
 	docker push ccnmtl/windsock
