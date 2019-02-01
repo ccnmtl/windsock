@@ -1,6 +1,6 @@
-FROM golang:1.7
+FROM golang:1.10
 RUN apt-get update \
-    && apt-get install pkg-config libzmq-dev -y \
+    && apt-get install pkg-config libzmq3-dev -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 ADD . /go/src/github.com/ccnmtl/windsock
